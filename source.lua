@@ -6305,7 +6305,7 @@ LPH_NO_VIRTUALIZE(function() -- Make UI
 
     chams:AddToggle("Arm Chams", false, getCallback("Chams%%Arm Chams")):AddColorPicker("Arm Color", Color3.new(0.1, 0.1, 1), getCallback("Chams%%Arm Color"))
     chams:AddSlider("Arm Transparency", 50, 0, 100, 1, "%", getCallback("Chams%%Arm Transparency"))
-    chams:AddDropdown("Arm Material", "ForceField", {"ForceField", "SmoothPlastic", "Glass"}, getCallback("Chams%%Arm Material"))
+    chams:AddDropdown("Arm Material", "ForceField", {"ForceField", "Neon", "SmoothPlastic", "Glass"}, getCallback("Chams%%Arm Material"))
     chams:AddToggle("Gun Chams", false, getCallback("Chams%%Gun Chams")):AddColorPicker("Gun Color", Color3.new(0.1, 0.1, 1), getCallback("Chams%%Gun Color"))
     chams:AddSlider("Gun Transparency", 50, 0, 100, 1, "%", getCallback("Chams%%Gun Transparency"))
     chams:AddDropdown("Gun Material", "ForceField", {"ForceField", "SmoothPlastic", "Glass"}, getCallback("Chams%%Gun Material"))
