@@ -6308,7 +6308,7 @@ LPH_NO_VIRTUALIZE(function() -- Make UI
     chams:AddDropdown("Arm Material", "ForceField", {"ForceField", "Neon", "SmoothPlastic", "Glass"}, getCallback("Chams%%Arm Material"))
     chams:AddToggle("Gun Chams", false, getCallback("Chams%%Gun Chams")):AddColorPicker("Gun Color", Color3.new(0.1, 0.1, 1), getCallback("Chams%%Gun Color"))
     chams:AddSlider("Gun Transparency", 50, 0, 100, 1, "%", getCallback("Chams%%Gun Transparency"))
-    chams:AddDropdown("Gun Material", "ForceField", {"ForceField", "SmoothPlastic", "Glass"}, getCallback("Chams%%Gun Material"))
+    chams:AddDropdown("Gun Material", "ForceField", {"ForceField", "Neon", "SmoothPlastic", "Glass"}, getCallback("Chams%%Gun Material"))
 
     morechams:AddToggle("Third Person Character Chams", false, getCallback("More Chams%%Third Person Character Chams")):AddColorPicker("Character Color", Color3.new(0.1, 0.1, 1), getCallback("More Chams%%Character Color"))
     morechams:AddSlider("Character Transparency", 50, 0, 100, 1, "%", getCallback("More Chams%%Character Transparency"))
@@ -6318,10 +6318,10 @@ LPH_NO_VIRTUALIZE(function() -- Make UI
     worldvisuals:AddToggle("Bullet Tracers", false, getCallback("World Visuals%%Bullet Tracers")):AddKeyBind(nil, "Tracers Key Bind"):AddColorPicker("Color One", Color3.new(0.1, 0.1, 1), getCallback("World Visuals%%Color One")):AddColorPicker("Color Two", Color3.new(1, 0.9, 0.9), getCallback("World Visuals%%Color Two"))
     worldvisuals:AddSlider("Tracers Size", 0.1, 0.05, 3, 0.05, " Studs", getCallback("World Visuals%%Tracers Size"))
     worldvisuals:AddSlider("Tracers Transparency", 50, 0, 100, 1, "%", getCallback("World Visuals%%Tracers Transparency"))
-    worldvisuals:AddDropdown("Tracers Material", "ForceField", {"ForceField", "SmoothPlastic", "Glass"}, getCallback("World Visuals%%Tracers Material"))
+    worldvisuals:AddDropdown("Tracers Material", "ForceField", {"ForceField", "Neon", "SmoothPlastic", "Glass"}, getCallback("World Visuals%%Tracers Material"))
     worldvisuals:AddToggle("Impact Points", false, getCallback("World Visuals%%Impact Points")):AddKeyBind(nil, "Points Key Bind"):AddColorPicker("Points Color", Color3.new(0.1, 0.1, 1), getCallback("World Visuals%%Points Color"))
     worldvisuals:AddSlider("Points Transparency", 50, 0, 100, 1, "%", getCallback("World Visuals%%Points Transparency"))
-    worldvisuals:AddDropdown("Points Material", "ForceField", {"ForceField", "SmoothPlastic", "Glass"}, getCallback("World Visuals%%Points Material"))
+    worldvisuals:AddDropdown("Points Material", "ForceField", {"ForceField", "Neon", "SmoothPlastic", "Glass"}, getCallback("World Visuals%%Points Material"))
     worldvisuals:AddSlider("Duration", 4, 1, 5, 0.5, " Seconds", getCallback("World Visuals%%Duration"))
 
     thirdperson:AddToggle("Enabled", false, getCallback("Third Person%%Enabled")):AddKeyBind(nil, "Key Bind")
